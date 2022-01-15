@@ -1,0 +1,31 @@
+import React from 'react';
+
+import './app.css';
+
+import Header from '../header/header.jsx';
+import RandomPlanet from '../random-planet/random-planet.jsx';
+import ItemList from '../item-list/item-list.jsx';
+import PersonDetails from '../person-details/person-details.jsx';
+
+export default class App extends React.Component {
+    constructor(props) {
+        super(props);
+
+    };
+        render() {
+            return (
+                <div>
+                  <Header/>
+                  <RandomPlanet/>
+                  <div className="row mb2">
+                    <div className="col-md-6">
+                      <ItemList/>
+                    </div>
+                    <div className="col-md-6">
+                      <PersonDetails/>
+                    </div>
+                  </div>
+                </div>
+            );
+        };
+};

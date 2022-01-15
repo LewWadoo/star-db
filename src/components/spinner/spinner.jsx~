@@ -1,0 +1,10 @@
+import React from 'react';
+
+const Spinner = () => {
+    return (
+        <div class="loadingio-spinner-double-ring-35rbavrcl8v"><div class="ldio-zjl2ozle8mr">
+<div></div>
+<div></div>
+<div><div></div></div>
+<div><div></div></div>
+</div></div>
